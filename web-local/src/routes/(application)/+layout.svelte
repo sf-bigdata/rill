@@ -25,11 +25,13 @@
   $: host = data.host;
   $: instanceId = data.instanceId;
 
+  /*
   $: fileWatcher.watch(`${host}/v1/instances/${instanceId}/files/watch`);
 
   $: resourceWatcher.watch(
     `${host}/v1/instances/${instanceId}/resources/-/watch`,
   );
+   */
 
   beforeNavigate(retainFeaturesFlags);
 

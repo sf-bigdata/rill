@@ -27,6 +27,7 @@ export class ActiveEventHandler {
     });
 
     // this is to ensure the event is triggered at the top of the minute
+    /*
     setTimeout(
       () => {
         setInterval(() => {
@@ -35,6 +36,7 @@ export class ActiveEventHandler {
       },
       (60 - new Date().getSeconds()) * 1000,
     );
+     */
   }
 
   private fireEvent() {
